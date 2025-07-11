@@ -29,7 +29,7 @@ project "imgui"
 		"backends/imgui_impl_glfw.cpp",
 		"backends/imgui_impl_opengl3.h",
 		"backends/imgui_impl_opengl3.h",
-		"backends/imgui_impl_opengl3_loader.cpp",
+		"backends/imgui_impl_opengl3_loader.h",
 	}
 
 	filter "system:windows"
