@@ -5,6 +5,12 @@ project "imgui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	includedirs
+	{
+		"./",
+		"./backends"
+	}
+
 	files
 	{
 		"imconfig.h",
